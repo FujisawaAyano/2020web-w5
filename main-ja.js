@@ -31,7 +31,7 @@ function result() {
     newStory = newStory.replace('ボブ',name);
   }
 
-  if(document.getElementById("日本").checked) {
+  if(document.getElementById("ja").checked) {
     const weight = Math.round(300*0.0714286) + 'kg';
     const temperature =  ' 摂氏'+Math.round((94-32) * 5 / 9) ;
     newStory = newStory.replace('94度',temperature);
